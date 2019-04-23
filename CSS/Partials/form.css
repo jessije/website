@@ -1,0 +1,27 @@
+form{
+    min-width:30%;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+form input{
+    margin-bottom: 10px;
+    min-width: 280px;
+    width:100%;
+
+    border-radius: var(--default-radius);
+    padding: 5px;
+    font-size: 1.2rem; 
+    font-family: "Indie flower";
+    text-align: center;
+    outline: none;
+    border-left: 2px solid var(--primary-green);
+    box-shadow: var(--default-shadow);
+
+}
+input:hover{
+    border-left: 8px solid var(--primary-green);
+}
